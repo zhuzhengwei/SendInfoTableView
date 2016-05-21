@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E38BBD1CE6F3BC001B0245 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E38BBC1CE6F3BC001B0245 /* main.m */; };
+		50E38BC01CE6F3BC001B0245 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E38BBF1CE6F3BC001B0245 /* AppDelegate.m */; };
+		50E38BC31CE6F3BC001B0245 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E38BC21CE6F3BC001B0245 /* ViewController.m */; };
+		50E38BC61CE6F3BC001B0245 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E38BC41CE6F3BC001B0245 /* Main.storyboard */; };
+		50E38BC81CE6F3BC001B0245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E38BC71CE6F3BC001B0245 /* Assets.xcassets */; };
+		50E38BCB1CE6F3BC001B0245 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E38BC91CE6F3BC001B0245 /* LaunchScreen.storyboard */; };
+		50E38BD71CE6F424001B0245 /* WTModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E38BD61CE6F424001B0245 /* WTModel.m */; };
+		50E38BDA1CE6F454001B0245 /* WTHeadSettepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E38BD91CE6F454001B0245 /* WTHeadSettepView.m */; };
+		50E38BE01CE71386001B0245 /* WTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E38BDF1CE71386001B0245 /* WTTableViewCell.m */; };
+		50E38BE41CE72611001B0245 /* WTInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E38BE21CE72611001B0245 /* WTInfoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50E379FC1CEFF5090000CF62 /* WTHerderPrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTHerderPrefix.pch; sourceTree = "<group>"; };
+		50E38BB81CE6F3BC001B0245 /* SendInfoTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendInfoTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E38BBC1CE6F3BC001B0245 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50E38BBE1CE6F3BC001B0245 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50E38BBF1CE6F3BC001B0245 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50E38BC11CE6F3BC001B0245 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50E38BC21CE6F3BC001B0245 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50E38BC51CE6F3BC001B0245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E38BC71CE6F3BC001B0245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E38BCA1CE6F3BC001B0245 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E38BCC1CE6F3BC001B0245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E38BD51CE6F424001B0245 /* WTModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTModel.h; sourceTree = "<group>"; };
+		50E38BD61CE6F424001B0245 /* WTModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTModel.m; sourceTree = "<group>"; };
+		50E38BD81CE6F454001B0245 /* WTHeadSettepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTHeadSettepView.h; sourceTree = "<group>"; };
+		50E38BD91CE6F454001B0245 /* WTHeadSettepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTHeadSettepView.m; sourceTree = "<group>"; };
+		50E38BDE1CE71386001B0245 /* WTTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTTableViewCell.h; sourceTree = "<group>"; };
+		50E38BDF1CE71386001B0245 /* WTTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTTableViewCell.m; sourceTree = "<group>"; };
+		50E38BE11CE72611001B0245 /* WTInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTInfoViewController.h; sourceTree = "<group>"; };
+		50E38BE21CE72611001B0245 /* WTInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTInfoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E38BB51CE6F3BC001B0245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E38BAF1CE6F3BC001B0245 = {
+			isa = PBXGroup;
+			children = (
+				50E38BBA1CE6F3BC001B0245 /* SendInfoTableView */,
+				50E38BB91CE6F3BC001B0245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E38BB91CE6F3BC001B0245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E38BB81CE6F3BC001B0245 /* SendInfoTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E38BBA1CE6F3BC001B0245 /* SendInfoTableView */ = {
+			isa = PBXGroup;
+			children = (
+				50E38BD31CE6F404001B0245 /* Model */,
+				50E38BD41CE6F404001B0245 /* View */,
+				50E38BD21CE6F404001B0245 /* Controller */,
+				50E38BBE1CE6F3BC001B0245 /* AppDelegate.h */,
+				50E38BBF1CE6F3BC001B0245 /* AppDelegate.m */,
+				50E38BC11CE6F3BC001B0245 /* ViewController.h */,
+				50E38BC21CE6F3BC001B0245 /* ViewController.m */,
+				50E38BC41CE6F3BC001B0245 /* Main.storyboard */,
+				50E38BC71CE6F3BC001B0245 /* Assets.xcassets */,
+				50E379FC1CEFF5090000CF62 /* WTHerderPrefix.pch */,
+				50E38BC91CE6F3BC001B0245 /* LaunchScreen.storyboard */,
+				50E38BCC1CE6F3BC001B0245 /* Info.plist */,
+				50E38BBB1CE6F3BC001B0245 /* Supporting Files */,
+			);
+			path = SendInfoTableView;
+			sourceTree = "<group>";
+		};
+		50E38BBB1CE6F3BC001B0245 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E38BBC1CE6F3BC001B0245 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E38BD21CE6F404001B0245 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50E38BE11CE72611001B0245 /* WTInfoViewController.h */,
+				50E38BE21CE72611001B0245 /* WTInfoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50E38BD31CE6F404001B0245 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50E38BD51CE6F424001B0245 /* WTModel.h */,
+				50E38BD61CE6F424001B0245 /* WTModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		50E38BD41CE6F404001B0245 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				50E38BD81CE6F454001B0245 /* WTHeadSettepView.h */,
+				50E38BD91CE6F454001B0245 /* WTHeadSettepView.m */,
+				50E38BDE1CE71386001B0245 /* WTTableViewCell.h */,
+				50E38BDF1CE71386001B0245 /* WTTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E38BB71CE6F3BC001B0245 /* SendInfoTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E38BCF1CE6F3BC001B0245 /* Build configuration list for PBXNativeTarget "SendInfoTableView" */;
+			buildPhases = (
+				50E38BB41CE6F3BC001B0245 /* Sources */,
+				50E38BB51CE6F3BC001B0245 /* Frameworks */,
+				50E38BB61CE6F3BC001B0245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendInfoTableView;
+			productName = SendInfoTableView;
+			productReference = 50E38BB81CE6F3BC001B0245 /* SendInfoTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E38BB01CE6F3BC001B0245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Happy Day";
+				TargetAttributes = {
+					50E38BB71CE6F3BC001B0245 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 50E38BB31CE6F3BC001B0245 /* Build configuration list for PBXProject "SendInfoTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E38BAF1CE6F3BC001B0245;
+			productRefGroup = 50E38BB91CE6F3BC001B0245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E38BB71CE6F3BC001B0245 /* SendInfoTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E38BB61CE6F3BC001B0245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E38BCB1CE6F3BC001B0245 /* LaunchScreen.storyboard in Resources */,
+				50E38BC81CE6F3BC001B0245 /* Assets.xcassets in Resources */,
+				50E38BC61CE6F3BC001B0245 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E38BB41CE6F3BC001B0245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E38BE01CE71386001B0245 /* WTTableViewCell.m in Sources */,
+				50E38BDA1CE6F454001B0245 /* WTHeadSettepView.m in Sources */,
+				50E38BD71CE6F424001B0245 /* WTModel.m in Sources */,
+				50E38BC31CE6F3BC001B0245 /* ViewController.m in Sources */,
+				50E38BC01CE6F3BC001B0245 /* AppDelegate.m in Sources */,
+				50E38BBD1CE6F3BC001B0245 /* main.m in Sources */,
+				50E38BE41CE72611001B0245 /* WTInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50E38BC41CE6F3BC001B0245 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E38BC51CE6F3BC001B0245 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E38BC91CE6F3BC001B0245 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E38BCA1CE6F3BC001B0245 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E38BCD1CE6F3BC001B0245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50E38BCE1CE6F3BC001B0245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E38BD01CE6F3BC001B0245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/winton/Desktop/MyProject/SendInfoTableView/SendInfoTableView/WTHerderPrefix.pch;
+				INFOPLIST_FILE = SendInfoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Winton.SendInfoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50E38BD11CE6F3BC001B0245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/winton/Desktop/MyProject/SendInfoTableView/SendInfoTableView/WTHerderPrefix.pch;
+				INFOPLIST_FILE = SendInfoTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Winton.SendInfoTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E38BB31CE6F3BC001B0245 /* Build configuration list for PBXProject "SendInfoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E38BCD1CE6F3BC001B0245 /* Debug */,
+				50E38BCE1CE6F3BC001B0245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E38BCF1CE6F3BC001B0245 /* Build configuration list for PBXNativeTarget "SendInfoTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E38BD01CE6F3BC001B0245 /* Debug */,
+				50E38BD11CE6F3BC001B0245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E38BB01CE6F3BC001B0245 /* Project object */;
+}
